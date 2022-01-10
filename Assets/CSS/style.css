@@ -1,0 +1,121 @@
+main{
+    padding: 10px;
+    background-color: black;
+    height: 500px;
+    display: grid;
+    gap: 10px;
+    grid-template:1fr 2fr 4fr 2fr 3fr 1fr 2fr / 1fr 2fr 1fr 1fr 2fr 1fr 2fr 1fr 3fr 2fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "grey1 grey2 grey2 grey2 grey2 grey2 grey3 grey3 grey3 grey3 grey3 grey4 yellow1"
+    "grey1 blue1 blue1 blue1 blue1 blue1 grey5 grey5 blue2 blue2 blue2 grey4 yellow1"
+    "black1 grey6 black2 grey7 grey7 grey8 yellow2 yellow2 red1 red1 red2 grey4 yellow1"
+    "black1 grey6 black2 yellow3 red3 red3 blue3 blue3 grey9 grey9 grey10 black3 black3"
+    "grey11 red4 black2 yellow4 grey12 grey12 grey12 grey13 grey13 blue4 yellow5 grey14 grey14"
+    "grey11 red4 black2 yellow4 red5 red5 black4 black4 black4 grey15 grey15 grey15 grey15"
+    "grey16 grey16 grey16 yellow4 red5 red5 black4 black4 black4 grey15 grey15 grey15 grey15";
+}
+.grey{
+    background-color: grey;
+}
+.yellow{
+    background-color: yellow;
+}
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+div{
+    box-sizing: border-box;
+}
+#grey1{
+    grid-area: grey1;
+}
+#grey2{
+    grid-area: grey2;
+}
+#grey3{
+    grid-area: grey3;
+}
+#grey4{
+    grid-area: grey4;
+}
+#grey5{
+    grid-area: grey5;
+}
+#grey6{
+    grid-area: grey6;
+}
+#grey7{
+    grid-area: grey7;
+}
+#grey8{
+    grid-area: grey8;
+}
+#grey9{
+    grid-area: grey9;
+}
+#grey10{
+    grid-area: grey10;
+}
+#grey11{
+    grid-area: grey11;
+}
+#grey12{
+    grid-area: grey12;
+}
+#grey13{
+    grid-area: grey13;
+}
+#grey14{
+    grid-area: grey14;
+}
+#grey15{
+    grid-area: grey15;
+}
+#grey16{
+    grid-area: grey16;
+}
+#yellow1{
+    grid-area: yellow1;
+}
+#yellow2{
+    grid-area: yellow2;
+}
+#yellow3{
+    grid-area: yellow3;
+}
+#yellow4{
+    grid-area: yellow4;
+}
+#yellow5{
+    grid-area: yellow5;
+}
+#blue1{
+    grid-area: blue1;
+}
+#blue2{
+    grid-area: blue2;
+}
+#blue3{
+    grid-area: blue3;
+}
+#blue4{
+    grid-area: blue4;
+}
+#red1{
+    grid-area: red1;
+}
+#red2{
+    grid-area: red2;
+}
+#red3{
+    grid-area: red3;
+}
+#red4{
+    grid-area: red4;
+}
+#red5{
+    grid-area: red5;
+}
